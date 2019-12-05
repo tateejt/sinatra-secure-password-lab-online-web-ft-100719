@@ -45,6 +45,7 @@ class ApplicationController < Sinatra::Base
       redirect "/success"
     else
       redirect "/failure"
+    end
   end
 
   get "/failure" do
